@@ -84,7 +84,7 @@ export default class Form extends Component {
     }
     setState(this, state, () => {
       if (this.props.onChange) {
-        this.props.onChange(this.state);
+        this.props.onChange(this.state, options);
       }
     });
   };
